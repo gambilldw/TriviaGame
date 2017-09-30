@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Trivia</title>
+    <!-- Added link to the jQuery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/CSS/buttons.css">
+</head>
+<body style="background-color:silver;">
+    <div class="jumbotron" style="background-color:grey">
+        <h1 class="text-center">Movie Trivia</h1>
+<script type="text/javascript">
+
+var movie = ["Metropolis", "Wings of Desire", "Gone With the Wind", "Singing in the Rain", "Arsenic and Old Lace", "Casablanca", "On the Waterfront", "Breakfast at Tiffany's", "Cool Hand Luke", "Chinatown", "Dune", "Drive", "Unforgiven", "Dark City", "Duel", "Blade Runner", "Creepshow", "A History of Violence", "Videodrome", "The Adventures of Buckaroo Banzai Across the 8th Dimension", "The Big Chill", "Reanimator", "The French Connection", "Sky Captain and the World of Tomorrow", "Willard"];
+        
+        var randomovie = movie[Math.floor(Math.random() * movie.length)];
+
+        var queryURL = "https://www.omdbapi.com/?t=" + randomovie + "&y=&plot=short&apikey=40e9cece";
+    </script>
+    
+        <div class="text-center">
+                <label for="answer">Answer:</label>
+                <input type="text" id="answer">
+              </div>
+    </div>
+    <script src="assets/JS/script.js"></script>
+    </script>
+</body>
+
+</html>

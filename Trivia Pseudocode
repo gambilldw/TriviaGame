@@ -1,0 +1,14 @@
+onclick startup
+timer counting down from 30
+randomly chosen movie from array
+Question: Year of Release
+	information pulled from OMDB, not stored in array
+input form
+submit button
+check if correct
+	if correct, add 1 to score/number of questions
+	if incorrect, current score/number of questions
+	if timeout, current score/number of questions
+repeat until number of questions reaches 5
+end game, report final score
+onclick startup to play again
